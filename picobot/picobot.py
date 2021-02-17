@@ -6,7 +6,7 @@ def main():
     client.schedtime = 0.01
     client.errortime = 1
     client.command = ".pico"
-    client.token = "<Insert >"
+    client.token = "<Insert Token From Discord Here>"
     client.port = "COM5"
     client.baudrate = 115200
     client.run(client.token)
